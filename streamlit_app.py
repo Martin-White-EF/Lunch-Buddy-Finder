@@ -10,7 +10,7 @@ if 'lunchbuddy' not in st.session_state:
 
 # Display the lunch buddy
 st.write(f"""
-# You are having lunch with! 
+# You are having lunch with: 
 ## {st.session_state.lunchbuddy}
 """)
 
