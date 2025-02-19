@@ -2,7 +2,7 @@ import random
 import streamlit as st
 
 # List of coworkers
-coworkers = ['Laiyi', 'Karen', 'Svenja', 'Remi', 'Amanda', 'Penny', 'Mai', 'Teppei', 'Valentina', 'Saki', 'Satoru', 'Ryoko', 'Kiho', 'Yudai', 'Kei', 'Dan']
+coworkers = ['Laiyi', 'Karen', 'Svenja', 'Remi', 'Amanda', 'Penny', 'Mai', 'Teppei', 'Valentina', 'Saki', 'Satoru', 'Ryoko', 'Kiho', 'Yudai', 'Kei', 'Dan', 'Martin']
 
 # Initialize the lunchbuddy in the session state if not already set
 if 'lunchbuddy' not in st.session_state:
