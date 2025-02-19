@@ -17,4 +17,3 @@ st.write(f"""
 # Button to reroll the lunchbuddy
 if st.button('Reroll'):
     st.session_state.lunchbuddy = random.choice(coworkers) + '!!!!!'
-    #st.rerun()  # Reruns the entire script to update the displayed lunch buddy
