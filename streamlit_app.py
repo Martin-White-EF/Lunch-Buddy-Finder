@@ -6,7 +6,7 @@ coworkers = ['Laiyi', 'Karen', 'Svenja', 'Remi', 'Amanda', 'Penny', 'Mai', 'Tepp
 
 # Initialize the lunchbuddy in the session state if not already set
 if 'lunchbuddy' not in st.session_state:
-    st.session_state.lunchbuddy = random.choice(coworkers) + '!!!!!'
+    st.session_state.lunchbuddy = random.choice(coworkers) + ' today!!!!!'
 
 # Display the lunch buddy
 st.write(f"""
@@ -16,4 +16,4 @@ st.write(f"""
 
 # Button to reroll the lunchbuddy
 if st.button('Reroll'):
-    st.session_state.lunchbuddy = random.choice(coworkers) + '!!!!!'
+    st.session_state.lunchbuddy = random.choice(coworkers) + ' today!!!!!'
